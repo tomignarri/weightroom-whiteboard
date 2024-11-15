@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import LoginForm from './components/LoginForm';
+
 import './App.css';
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
        
       </header>
+      <LoginForm/>
     </div>
   );
 }
