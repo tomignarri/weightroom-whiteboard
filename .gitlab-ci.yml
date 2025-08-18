@@ -1,0 +1,13 @@
+image: node:18
+
+stages:
+  - test
+
+test_job:
+  stage: test
+  script:
+    - npm install
+    - npm run test:ci
+  only:
+    - dev
+    - merge_requests
