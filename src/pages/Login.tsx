@@ -2,7 +2,7 @@ import LoginForm from "../components/LoginForm"
 
 
 
-export default function Login() {
+export default function Login(): JSX.Element {
 
     // Is this the container for the login form
 

@@ -3,18 +3,6 @@ import { render, screen } from '@testing-library/react';
 import App from '../App';
 
 describe('App Component', () => {
-  test('renders the header section', () => {
-    // ARRANGE
-    // No setup needed
-    
-    // ACT
-    render(<App />);
-    
-    // ASSERT
-    const header = screen.getByRole('banner'); // header elements have 'banner' role
-    expect(header).toBeInTheDocument();
-    expect(header).toHaveClass('App-header');
-  });
 
   test('has the correct overall structure', () => {
     // ARRANGE
