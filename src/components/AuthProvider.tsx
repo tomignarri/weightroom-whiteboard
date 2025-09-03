@@ -8,6 +8,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   let signin = (newUser: string, callback: VoidFunction) => {
     return fakeAuthProvider.signin(() => {
       setUser(newUser);
+
+      // Why is this here?
       callback();
     });
   };
