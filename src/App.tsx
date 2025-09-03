@@ -6,7 +6,7 @@ import './App.css';
 
 function App(): JSX.Element {
 
-  // if already logged in, don't direct to login
+  // I know the home page is protected
 
   return (
     <Router>
