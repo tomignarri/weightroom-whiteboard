@@ -18,6 +18,9 @@
     "typescript": "^5.9.2",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "typescript": "^5.9.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -44,8 +47,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.28.3",
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-react": "^7.27.1",
+    "babel-jest": "^29.7.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1"
   }
