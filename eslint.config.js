@@ -44,6 +44,7 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'no-unused-vars': 'off', // Use TypeScript version instead
       '@typescript-eslint/no-unused-vars': 'warn',
       '@typescript-eslint/no-explicit-any': 'warn',
       'react/prop-types': 'off', // TypeScript handles this

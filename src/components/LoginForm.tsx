@@ -1,10 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { useAuth } from "../hooks/useAuth";
-import {
-  useNavigate,
-  useLocation,
-} from "react-router";
-
+import { useNavigate, useLocation } from "react-router";
 
 export default function LoginForm(): JSX.Element {
   let navigate = useNavigate();
@@ -22,7 +18,6 @@ export default function LoginForm(): JSX.Element {
     // take username from input
     let username = formData.get("username") as string;
 
-    
     auth.signin(username, () => {
       // Send them back to the page they tried to visit when they were
       // redirected to the login page. Use { replace: true } so we don't create

@@ -25,10 +25,7 @@
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "test": "jest",
-    "test:ci": "jest --ci --coverage --watchAll=false",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "test": "vitest"
   },
   "browserslist": {
     "production": [
@@ -63,6 +60,7 @@
     "jest": "^27.5.1",
     "prettier": "^3.6.2",
     "vite": "^7.1.4",
-    "vite-plugin-eslint": "^1.8.1"
+    "vite-plugin-eslint": "^1.8.1",
+    "vitest": "^3.2.4"
   }
 }
