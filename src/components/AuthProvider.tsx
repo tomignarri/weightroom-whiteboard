@@ -9,7 +9,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     return fakeAuthProvider.signin(() => {
       setUser(newUser);
 
-      // Why is this here?
       callback();
     });
   };
