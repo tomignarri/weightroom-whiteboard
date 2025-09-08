@@ -1,0 +1,12 @@
+import { useState } from "react"
+import Groups from "../components/Groups"
+
+export default function Home(): JSX.Element {
+    return (
+      <div>
+        <p>Home Page</p>
+
+        <Groups></Groups>
+      </div>
+    )
+  }
